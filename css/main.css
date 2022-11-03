@@ -5481,7 +5481,7 @@ Created using IcoMoon - icomoon.io
         /* For Safari 5.1 to 6.0 */
         /* For Opera 11.1 to 12.0 */
         /* For Firefox 3.6 to 15 */
-        background: linear-gradient(#343a40 0%, #000 80%);
+        background: linear-gradient(rgba(0, 43, 49, 0.85) 0%, rgba(0, 0, 0, 0.55) 80%);
         /* Standard syntax (must be last) */
         opacity: 0.76;
         filter: alpha(opacity=76);
@@ -7024,7 +7024,7 @@ Created using IcoMoon - icomoon.io
 
 /* Experience Style */
 .cc-experience .cc-experience-header {
-    padding-top: 60px;
+    padding-top: 40px;
     padding-right: 0;
     text-align: center;
     color: #fff;
@@ -7129,5 +7129,8 @@ a.credit {
 /* Common Style */
 .section {
     padding-bottom: 0;
-    background: #2a5b7e;
+    background: #002b31;
+}
+.col-md-full{
+    min-width: 100%;
 }
