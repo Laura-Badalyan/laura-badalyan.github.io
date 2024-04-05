@@ -2499,38 +2499,38 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress-bar {
-    background: #378C3F;
+    background: #a0928d;
 }
 
 .progress-container.progress-primary .progress-value,
 .progress-container.progress-primary .progress-badge {
-    color: #378C3F;
+    color: #a0928d;
 }
 
 .progress-container.progress-info .progress {
-    background: rgba(44, 168, 255, 0.3);
+    background: #f2e3de;;
 }
 
 .progress-container.progress-info .progress-bar {
-    background: #2CA8FF;
+    background: #a0928d;
 }
 
 .progress-container.progress-info .progress-value,
 .progress-container.progress-info .progress-badge {
-    color: #2CA8FF;
+    color: black;
 }
 
 .progress-container.progress-success .progress {
-    background: rgba(24, 206, 15, 0.3);
+    background: #a0928d;
 }
 
 .progress-container.progress-success .progress-bar {
-    background: #18ce0f;
+    background: #a0928d;
 }
 
 .progress-container.progress-success .progress-value,
 .progress-container.progress-success .progress-badge {
-    color: #18ce0f;
+    color: #a0928d;
 }
 
 .progress-container.progress-warning .progress {
@@ -2806,7 +2806,7 @@ p {
 }
 
 .title + .category {
-    margin-top: -25px;
+    margin: 100px 0 0 -279px;
 }
 
 .description,
@@ -4713,6 +4713,11 @@ Created using IcoMoon - icomoon.io
     margin-top: 35px;
 }
 
+.profile-page{
+    height: 209px;
+    background: #a0928d;
+}
+
 .profile-page .page-header {
     min-height: 550px;
 }
@@ -5032,13 +5037,14 @@ Created using IcoMoon - icomoon.io
 .page-header .container > .content-center {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 64%;
     transform: translate(-50%, -50%);
     text-align: center;
     padding: 0 15px;
     color: #FFFFFF;
     width: 100%;
     max-width: 880px;
+    display: flex;
 }
 
 .page-header .category,
@@ -5062,9 +5068,6 @@ Created using IcoMoon - icomoon.io
     content: "";
 }
 
-.page-header:before {
-    background-color: rgba(0, 0, 0, 0.5);
-}
 
 .page-header[filter-color="orange"] {
     background: rgba(44, 44, 44, 0.2);
@@ -5078,6 +5081,7 @@ Created using IcoMoon - icomoon.io
 
 .page-header .container {
     z-index: 2;
+    height: 209px;
 }
 
 .clear-filter:after, .clear-filter:before {
@@ -6958,21 +6962,6 @@ Created using IcoMoon - icomoon.io
     position: relative;
 }
 
-.cc-profile-image a:before {
-    content: "";
-    border: 15px solid #8f8f8f;
-    border-radius: 50%;
-    height: 180px;
-    width: 180px;
-    position: absolute;
-    left: 0;
-    -webkit-animation: pulsate 1.6s ease-out;
-    animation: pulsate 1.6s ease-out;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    opacity: 0.0;
-    z-index: 99;
-}
 
 .cc-profile-image img {
     position: relative;
@@ -7129,7 +7118,7 @@ a.credit {
 /* Common Style */
 .section {
     padding-bottom: 0;
-    background: #002b31;
+    background: #33302e;
 }
 .col-md-full{
     min-width: 100%;
