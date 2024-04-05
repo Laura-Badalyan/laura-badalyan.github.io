@@ -2801,7 +2801,7 @@ p {
 }
 
 .title + .category {
-    margin: 100px 0 0 -279px;
+    margin: 89px 0 0 -280px;
 }
 
 .description,
@@ -4497,7 +4497,7 @@ Created using IcoMoon - icomoon.io
     position: relative;
     overflow: hidden;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -4709,7 +4709,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .profile-page{
-    height: 209px;
+    height: 125px;
     background: #a0928d;
 }
 
@@ -5076,7 +5076,7 @@ Created using IcoMoon - icomoon.io
 
 .page-header .container {
     z-index: 2;
-    height: 209px;
+    height: 125px;
 }
 
 .clear-filter:after, .clear-filter:before {
@@ -6961,8 +6961,8 @@ Created using IcoMoon - icomoon.io
 .cc-profile-image img {
     position: relative;
     border-radius: 50%;
-    height: 180px;
-    width: 180px;
+    height: 140px;
+    width: 140px;
     padding: 0;
     margin: 0;
     border: 15px solid transparent;
