@@ -2464,7 +2464,7 @@ textarea.form-control:focus, textarea.form-control:active {
     height: 1px;
     border-radius: 0;
     box-shadow: none;
-    background: rgba(222, 222, 222, 0.8);
+    background: #f2e3de;
     margin-top: 14px;
 }
 
@@ -2520,9 +2520,6 @@ textarea.form-control:focus, textarea.form-control:active {
     color: black;
 }
 
-.progress-container.progress-success .progress {
-    background: #a0928d;
-}
 
 .progress-container.progress-success .progress-bar {
     background: #a0928d;
@@ -2530,7 +2527,7 @@ textarea.form-control:focus, textarea.form-control:active {
 
 .progress-container.progress-success .progress-value,
 .progress-container.progress-success .progress-badge {
-    color: #a0928d;
+    color: black;
 }
 
 .progress-container.progress-warning .progress {
@@ -6989,7 +6986,6 @@ Created using IcoMoon - icomoon.io
 
 /* Professional Skills Style */
 .progress-container {
-    margin-bottom: 20px;
     font-size: 18px;
 }
 
@@ -7011,7 +7007,7 @@ Created using IcoMoon - icomoon.io
 
 /* Experience Style */
 .cc-experience .cc-experience-header {
-    padding-top: 40px;
+    padding-top: 24px;
     padding-right: 0;
     text-align: center;
     color: #fff;
