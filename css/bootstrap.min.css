@@ -631,8 +631,8 @@ pre code {
 .container {
     margin-right: auto;
     margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right:0;
+    padding-left: 0;
     width: 100%
 }
 
@@ -6382,7 +6382,7 @@ a.bg-dark:hover {
 }
 
 .mb-4 {
-    margin-bottom: 1.5rem!important
+    margin-bottom: 10px !important
 }
 
 .ml-4 {
