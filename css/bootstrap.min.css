@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-@media print {
+ @media print {
     *,
     ::after,
     ::before {
